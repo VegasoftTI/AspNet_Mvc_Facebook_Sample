@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h4>@ViewBag.x</h4>
+<ul>
+
+    <li>@ViewBag.PageID</li>
+    <li>@ViewBag.oauth_token</li>
+    <li>@ViewBag.algorithm</li>
+    <li>@ViewBag.PageLiked</li>
+    <li>@ViewBag.fbuid</li>
+    <li>@ViewBag.Country</li>
+    <li>@ViewBag.locale</li>
+    <li>@ViewBag.lang</li>
+
+</ul>
+
+@Html.ActionLink("Like This Page", "FacebookLike")
